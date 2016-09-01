@@ -1,5 +1,7 @@
 # trim-canvas
 
+[![NPM](https://nodei.co/npm/trim-canvas.png)](https://npmjs.org/package/trim-canvas)
+
 A tiny (< 100 LoC) library for trimming whitespace from a `canvas` element with
 no dependencies.
 
@@ -30,4 +32,4 @@ canvas element beforehand.
 Credits go to [@efc](https://github.com/efc) for writing a quick version of this
 in [this issue](https://github.com/szimek/signature_pad/issues/49#issue-29108215)
 and to the original [StackOverflow Answer](http://stackoverflow.com/a/12178531/3431180)
-that was credited there.
+that was credited in that issue.

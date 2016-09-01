@@ -1,7 +1,7 @@
 {
   "name": "trim-canvas",
   "version": "0.1.0",
-  "description": "A tiny library for trimming whitespace from a `canvas` element.",
+  "description": "A tiny library for trimming whitespace from a canvas element",
   "main": "build/index.js",
   "devDependencies": {
     "babel-core": "^6.0.14",
