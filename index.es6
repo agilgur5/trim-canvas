@@ -12,9 +12,11 @@ export default function trimCanvas (canvas) {
   let cropLeft = scanX(true, imgWidth, imgHeight, imgData)
   let cropRight = scanX(false, imgWidth, imgHeight, imgData)
 
-  let cropXDiff = cropRight - cropLeft
-  let cropYDiff = cropBottom - cropTop
-  
+  // + 1 is needed because this is a difference, there are n + 1 pixels in
+  // between the two numbers inclusive
+  let cropXDiff = (cropRight - cropLeft) + 1
+  let cropYDiff = (cropBottom - cropTop) + 1
+
   // get the relevant data from the calculated coordinates
   let trimmedData = context.getImageData(cropLeft, cropTop, cropXDiff,
     cropYDiff)
@@ -55,8 +57,8 @@ function scanY (fromTop, imgWidth, imgHeight, imgData) {
     for (var x = 0; x < imgWidth; x++) {
       // if not white, return col
       if (getAlpha(x, y, imgWidth, imgData)) {
-        return y                        
-      }      
+        return y
+      }
     }
   }
 
@@ -75,8 +77,8 @@ function scanX (fromLeft, imgWidth, imgHeight, imgData) {
     for (var y = 0; y < imgHeight; y++) {
       // if not white, return row
       if (getAlpha(x, y, imgWidth, imgData)) {
-        return x                        
-      }      
+        return x
+      }
     }
   }
 
