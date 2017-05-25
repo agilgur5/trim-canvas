@@ -1,6 +1,6 @@
 # trim-canvas
 
-[![NPM](https://nodei.co/npm/trim-canvas.png)](https://npmjs.org/package/trim-canvas)
+[![NPM](https://nodei.co/npm/trim-canvas.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/package/trim-canvas)
 
 A tiny (< 100 LoC) library for trimming whitespace from a `canvas` element with
 no dependencies.
