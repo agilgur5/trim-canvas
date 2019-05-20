@@ -34,6 +34,12 @@ If you don't want to mess with your existing canvas, then simply clone the canva
 
 `trim-canvas` returns the canvas element for easy chaining.
 
+## Demo
+
+You can see a demo of `trim-canvas` [here](https://agilgur5.github.io/react-signature-canvas/).
+
+<small>*(N.B. this is the demo for [`react-signature-canvas`](https://github.com/agilgur5/react-signature-canvas) which depends on `trim-canvas`)*</small>
+
 ## Credits
 
 Credits go to [@efc](https://github.com/efc) for writing a quick version of this in [this issue](https://github.com/szimek/signature_pad/issues/49#issue-29108215) and to the original [StackOverflow Answer](http://stackoverflow.com/a/12178531/3431180) that was credited in that issue.
