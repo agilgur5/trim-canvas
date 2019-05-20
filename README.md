@@ -26,7 +26,7 @@ A tiny (< 100 LoC) library for trimming whitespace from a `canvas` element with 
 ```javascript
 import trimCanvas from 'trim-canvas'
 
-let canvas = document.createElement('canvas')
+const canvas = document.createElement('canvas')
 
 // do some drawing on it ...
 
