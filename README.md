@@ -36,7 +36,7 @@ If you don't want to mess with your existing canvas, then simply clone the canva
 
 ## Example
 
-Can see how `trim-canvas` is used inside of `react-signature-canvas` [here](https://github.com/agilgur5/react-signature-canvas/blob/310bff81813509a4035bedfe50d76e7045a880cb/src/index.js#L54).
+Can see how `trim-canvas` is used inside of `react-signature-canvas` [here](https://github.com/agilgur5/react-signature-canvas/blob/310bff81813509a4035bedfe50d76e7045a880cb/src/index.js#L53-L64).
 It includes a step for cloning the canvas.
 
 ## Demo
