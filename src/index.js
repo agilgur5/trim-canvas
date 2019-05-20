@@ -1,5 +1,7 @@
 export default function trimCanvas (canvas, options = {}) {
   const {clone} = options
+  let {createCanvas = createCanvasDOM} = options // support node-canvas, etc
+
   const context = canvas.getContext('2d')
 
   const imgWidth = canvas.width
@@ -24,7 +26,7 @@ export default function trimCanvas (canvas, options = {}) {
 
   // early return if cloning
   if (clone) {
-    const copy = document.createElement('canvas')
+    const copy = createCanvas()
     copy.width = cropXDiff
     copy.height = cropYDiff
     copy.getContext('2d').putImageData(trimmedData, 0, 0)
@@ -94,4 +96,8 @@ function scanX (fromLeft, imgWidth, imgHeight, imgData) {
 
   // the whole image is white already
   return null
+}
+
+function createCanvasDOM () {
+  return document.createElement('canvas')
 }
