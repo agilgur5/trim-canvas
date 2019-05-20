@@ -1,4 +1,5 @@
-export default function trimCanvas (canvas) {
+export default function trimCanvas (canvas, options = {}) {
+  const {clone} = options
   const context = canvas.getContext('2d')
 
   const imgWidth = canvas.width
@@ -20,6 +21,15 @@ export default function trimCanvas (canvas) {
   // get the relevant data from the calculated coordinates
   const trimmedData = context.getImageData(cropLeft, cropTop, cropXDiff,
     cropYDiff)
+
+  // early return if cloning
+  if (clone) {
+    const copy = document.createElement('canvas')
+    copy.width = cropXDiff
+    copy.height = cropYDiff
+    copy.getContext('2d').putImageData(trimmedData, 0, 0)
+    return copy
+  }
 
   // set the trimmed width and height
   canvas.width = cropXDiff
