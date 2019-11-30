@@ -1,0 +1,5 @@
+language: node_js
+# default is apparently 0.10.48
+node_js: '10.16.0'
+
+script: npm run test:pub
