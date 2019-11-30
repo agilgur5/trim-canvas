@@ -2,6 +2,7 @@ npm-debug.log*
 node_modules/
 
 build/
+coverage/
 *.tgz
 
 .DS_Store
