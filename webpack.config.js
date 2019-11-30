@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './index.es6',
+  entry: './index.js',
   output: {
     path: './build',
     filename: 'index.js',
@@ -8,7 +8,7 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.es6$/, loader: 'babel-loader', query: {presets: ['es2015']}
+      test: /\.js$/, loader: 'babel-loader', query: {presets: ['es2015']}
     }]
   }
 }
