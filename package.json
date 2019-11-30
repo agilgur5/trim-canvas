@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch -d",
     "produce": "webpack -p",
-    "lint": "standard index.es6"
+    "lint": "standard index.js"
   },
   "keywords": [
     "canvas",
