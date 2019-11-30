@@ -8,9 +8,13 @@
   ],
   "author": "Anton Gilgur",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/agilgur5/trim-canvas",
   "repository": {
     "type": "git",
     "url": "https://github.com/agilgur5/trim-canvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agilgur5/trim-canvas/issues"
   },
   "keywords": [
     "canvas",
