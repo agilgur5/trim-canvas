@@ -3,6 +3,9 @@
   "version": "0.1.2",
   "description": "A tiny library for trimming whitespace from a canvas element",
   "main": "build/index.js",
+  "files": [
+    "build/index.js"
+  ],
   "devDependencies": {
     "babel-core": "^6.0.14",
     "babel-loader": "^6.0.0",
