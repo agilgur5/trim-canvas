@@ -29,7 +29,8 @@
     "lint": "standard index.js",
     "build:watch": "webpack --watch -d",
     "build:prod": "webpack -p",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:pub": "npm run build:prod && npm pack"
   },
   "devDependencies": {
     "babel-core": "^6.0.14",

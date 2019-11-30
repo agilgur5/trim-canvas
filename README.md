@@ -9,6 +9,8 @@
 [![dy](https://img.shields.io/npm/dy/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dm](https://img.shields.io/npm/dm/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dw](https://img.shields.io/npm/dw/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
+<br><!-- status / activity -->
+[![build status](https://img.shields.io/travis/agilgur5/trim-canvas/master.svg)](https://travis-ci.org/agilgur5/trim-canvas)
 <br>
 [![NPM](https://nodei.co/npm/trim-canvas.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/package/trim-canvas)
 
