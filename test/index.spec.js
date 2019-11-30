@@ -9,9 +9,15 @@ describe('trimCanvas', () => {
 
     ctx.fillStyle = 'purple'
     ctx.fillRect(450, 450, 100, 100) // 100x100 purple box in center
+    ctx.fillRect(550, 550, 100, 100) // 100x100 purple box down-right of center
+    // should look like this basically:
+    //      _
+    //     |_|_
+    //       |_|
+    //
 
     trimCanvas(canvas)
-    expect(canvas.width).toBe(100)
-    expect(canvas.height).toBe(100)
+    expect(canvas.width).toBe(200)
+    expect(canvas.height).toBe(200)
   })
 })
