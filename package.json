@@ -26,10 +26,10 @@
     "remove-blanks"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch -d",
-    "produce": "webpack -p",
-    "lint": "standard index.js"
+    "lint": "standard index.js",
+    "build:watch": "webpack --watch -d",
+    "build:prod": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "babel-core": "^6.0.14",
