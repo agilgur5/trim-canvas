@@ -4,13 +4,12 @@
 [![package-json](https://img.shields.io/github/package-json/v/agilgur5/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![releases](https://img.shields.io/github/release/agilgur5/trim-canvas.svg)](https://github.com/agilgur5/trim-canvas/releases)
 [![commits](https://img.shields.io/github/commits-since/agilgur5/trim-canvas/latest.svg)](https://github.com/agilgur5/trim-canvas/commits/master)
-
-<!-- downloads -->
+<br><!-- downloads -->
 [![dt](https://img.shields.io/npm/dt/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dy](https://img.shields.io/npm/dy/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dm](https://img.shields.io/npm/dm/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dw](https://img.shields.io/npm/dw/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
-
+<br>
 [![NPM](https://nodei.co/npm/trim-canvas.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/package/trim-canvas)
 
 A tiny (< 100 LoC) library for trimming whitespace from a `canvas` element with no dependencies.
