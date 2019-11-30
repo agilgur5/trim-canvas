@@ -1,9 +1,11 @@
 # trim-canvas
 
+<!-- releases / versioning -->
 [![package-json](https://img.shields.io/github/package-json/v/agilgur5/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![releases](https://img.shields.io/github/release/agilgur5/trim-canvas.svg)](https://github.com/agilgur5/trim-canvas/releases)
 [![commits](https://img.shields.io/github/commits-since/agilgur5/trim-canvas/latest.svg)](https://github.com/agilgur5/trim-canvas/commits/master)
 
+<!-- downloads -->
 [![dt](https://img.shields.io/npm/dt/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dy](https://img.shields.io/npm/dy/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
 [![dm](https://img.shields.io/npm/dm/trim-canvas.svg)](https://npmjs.org/package/trim-canvas)
