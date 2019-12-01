@@ -1,4 +1,4 @@
-import trimCanvas from '../index.js'
+import trimCanvas from '../src/index.js'
 
 describe('trimCanvas', () => {
   it('should trim whitespace (and nothing else)', () => {
