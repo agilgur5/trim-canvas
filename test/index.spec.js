@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'jest-without-globals'
+
 import trimCanvas from '../src/index.js'
 
 describe('trimCanvas', () => {
