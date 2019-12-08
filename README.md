@@ -15,7 +15,7 @@
 <br>
 [![NPM](https://nodei.co/npm/trim-canvas.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/package/trim-canvas)
 
-A tiny (< 100 LoC) library for trimming whitespace from a `canvas` element with no dependencies.
+A tiny (~100 LoC) library for trimming whitespace from a `canvas` element with no dependencies.
 
 ## Installation
 
@@ -35,8 +35,28 @@ trimCanvas(canvas)
 ```
 
 If you don't want to mess with your existing canvas, then simply clone the canvas element beforehand.
+`trim-canvas` v0.2+ has built-in support for cloning:
+
+```javascript
+const newTrimmedCanvas = trimCanvas(canvas, {clone: true})
+```
+
+Can view the [full list of options](#API) below.
 
 `trim-canvas` returns the canvas element for easy chaining.
+
+### API
+
+#### `trimCanvas(canvas, options)`
+
+- arguments
+  - **canvas** *Canvas object* The canvas to be trimmed.
+  - **options** *object* Optional arguments.
+    - **clone** *bool* Whether to clone the canvas before trimming (default: `false`).
+    - **createCanvas** *function* A custom function to create a Canvas (defaults to DOM implementation).
+      Supports [`node-canvas`'s `createCanvas`](https://github.com/Automattic/node-canvas#createcanvas).
+
+- returns the trimmed canvas (original or cloned)
 
 ## Example
 
